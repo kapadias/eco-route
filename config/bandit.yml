@@ -1,0 +1,5 @@
+# Directories to exclude from scan
+exclude_dirs: ['./tests']
+
+# Bandit security issues to skip
+skips: ['B104']

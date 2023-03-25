@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "df-beantown-svc-template"
+version = "0.1.0"
+description = ""
+authors = ["Shashank Kapadia <shashank.kapadia@randstadusa.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+black = "^22.12.0"
+bandit = "^1.7.4"
+pytest = "^7.2.0"
+coverage = "^7.0.2"
+pytest-cov = "^4.0.0"
+uvicorn = "^0.20.0"
+fastapi = "^0.88.0"
+coverage-badge = "^1.1.0"
+opentelemetry-api = "^1.15.0"
+opentelemetry-sdk = "^1.15.0"
+opentelemetry-exporter-gcp-trace = "^1.4.0"
+opentelemetry-instrumentation-fastapi = "^0.36b0"
+locust = "^2.14.2"
+httpx = "^0.23.3"
+googlemaps = "^4.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
