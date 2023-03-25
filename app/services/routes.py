@@ -5,7 +5,7 @@ from ..api.errors import raise_error
 
 tracer = trace.get_tracer(__name__)
 
-GOOGLE_MAPS_API_KEY = "AIzaSyBXgfbhHyaXzWP7D1QJub1MR5UZXEgJebk"
+GOOGLE_MAPS_API_KEY = "GOOGLE_MAPS_API_KEY"
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
 
